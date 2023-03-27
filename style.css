@@ -1,0 +1,96 @@
+
+
+.Header
+{
+    text-align:center;
+border-bottom:8px double rgb(223, 11, 223);
+margin-bottom:2rem;
+padding-bottom:2rem;
+}
+
+.profileImg{
+    float:right;
+    border-radius:200px;
+    margin: 1.5rem;
+    display: inline;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    padding: 1rem 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    max-width: 60rem;
+    margin: 0 auto;
+    color: #333;
+}
+
+.Strap{
+    font-size: 1rem;
+}
+
+
+.LogoWrapper {
+    display: block;
+}
+
+.Name {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.MethodWrapper li {
+    padding: 0.4rem 0;
+}
+
+.MethodWrapper li::after {
+    content: "*";
+    display: block;
+    text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    color: #eee;
+}
+
+.stack {
+    width: 100%;
+    display: block;
+}
+
+
+@media screen and (min-width: 800px) {
+    body {
+        border-left: 4px solid #f9f9f9;
+        border-right: 4px solid #f9f9f9;
+        padding: 1rem 2rem;
+    }
+
+    .IntroWrapper {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    
+    .Name {
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .Name {
+        padding: 0.5rem;
+        font-size: 2.5rem;
+        text-align: left;
+        position: relative;
+        
+    }
+
+}
